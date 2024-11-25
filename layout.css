@@ -22,10 +22,69 @@ body {
 .header {
   background-color: gold;
 }
+/*main navigoiti*/
+.wrapper .main-nav {
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+}
+
+.main-nav ul {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.main-nav ul li {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 100%;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+}
 
 .main {
   background-color: darkorange;
 }
+
+/*some navigointi*/
+
+.facebook {
+  background-color: darkblue;
+}
+.twitter {
+  background-color: lightblue;
+}
+.email {
+  background-color: grey;
+}
+.some-nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: aquamarine;
+}
+
+.some-nav ul > * {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center;
+  padding: 1rem;
+  font-size: medium;
+}
+
+.facebook {
+  background-color: darkblue;
+}
+.twitter {
+  background-color: darkred;
+}
+.envelope {
+  background-color: blueviolet;
+}
+
 .aside-1 {
   background-color: mediumseagreen;
 }
